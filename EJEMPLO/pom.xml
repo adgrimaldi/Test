@@ -67,8 +67,8 @@
 			    <version>1.3.0</version>
 			    <configuration>
 			        <subscriptionId>8a52e450-dead-4649-9f72-deaa998b940c</subscriptionId>
-			        <clusterName>ADSA</clusterName>
-			        <appName>spring-boot</appName>
+			        <clusterName>portaladsaext</clusterName>
+			        <appName>portaladsaext</appName>
 			        <isPublic>true</isPublic>
 			        <deployment>
 			            <cpu>1</cpu>
