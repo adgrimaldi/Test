@@ -10,19 +10,14 @@ import com.adsa.service.FetchService;
 @Controller
 public class IndexController {
 
-	@Autowired
-	private FetchService fetchService;
-	
-	
-	@GetMapping("/Testing")
-	public String getInitialView(Model model) {
-		
-		model.addAttribute("zonas",fetchService.getAllZones());
+
+	@GetMapping("/")
+	public String getHome(Model model) {
 		
 		return "index";
 	}
 	
-	@GetMapping("/Testing/Vista2")
+	@GetMapping("/Testing")
 	public String getInitialView2(Model model) {
 		
 		model.addAttribute("variable",6);
